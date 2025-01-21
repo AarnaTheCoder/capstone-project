@@ -38,3 +38,16 @@ img{
     height:500px;
     width:500px;
 }
+footer{
+    background-color: aqua;
+    color: blueviolet;
+    bottom: 10px;
+    right:0px;
+    width:100%;
+    position: fixed;
+    text-align: center;
+    
+}
+.contact{
+    color: rgb(209, 145, 18);
+}
