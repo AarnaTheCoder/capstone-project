@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <link rel="stylesheet" href="style.css">
 
     <style>body{
 
@@ -44,11 +44,25 @@
                 <input type="checkbox" id="city" value="Galveston" >Galveston<br><br><br>
                 <label>Birthday</label><br>
                 <input type="date" id="birthday" name="birthday" ><br><br><br>   
-
-                <input type="submit"><br><br>
             </fieldset>
-        </form>
-        
-   
-</body>
+        </form><br><br>
+             <center><button onclick="submit()">submit</button></center>
+             <p id="send"></p>
+             <center><button onclick="contactinfo()">Contact Info</button></center>
+                      
+        <script>
+
+            function submit() {
+                document.getElementById("send").innerHTML="Thank you for sending the form."
+            }
+
+            function contactinfo(){
+                alert("Michael Fouraker-(817) 475-9424");
+            }
+            
+           
+
+        </script>
+      </body>
+      
 </html>
